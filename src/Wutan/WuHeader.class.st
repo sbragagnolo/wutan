@@ -7,7 +7,12 @@ Class {
 { #category : #rendering }
 WuHeader >> possiblePages [
 
-	^ {  }
+	^ {
+		  WuTrainingSession.
+		  WuExerciseAdmin.
+		  WuTrainingStatistics.
+		  WuSpacedAlgorithmConfiguration.
+		  WuContact }
 ]
 
 { #category : #rendering }
