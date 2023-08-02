@@ -80,6 +80,11 @@ WutanApp >> componentInstances [
 	^ componentInstances
 ]
 
+{ #category : #accessing }
+WutanApp >> componentToDisplay [
+	^ componentToDisplay
+]
+
 { #category : #rendering }
 WutanApp >> componentToDisplay: anObject [
 	componentToDisplay := anObject
