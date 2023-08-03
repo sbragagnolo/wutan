@@ -1,11 +1,11 @@
 Class {
-	#name : #WuContact,
+	#name : #WuContactPage,
 	#superclass : #WuPage,
 	#category : #Wutan
 }
 
 { #category : #accessing }
-WuContact class >> pageName [
+WuContactPage class >> pageName [
 
 	^ #Contact
 ]

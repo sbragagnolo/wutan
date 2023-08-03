@@ -1,10 +1,10 @@
 Class {
-	#name : #WuSpacedAlgorithmConfiguration,
+	#name : #WuConfigurationPage,
 	#superclass : #WuPage,
 	#category : #Wutan
 }
 
 { #category : #accessing }
-WuSpacedAlgorithmConfiguration class >> pageName [ 
+WuConfigurationPage class >> pageName [ 
 	 ^ 'Configuration'
 ]

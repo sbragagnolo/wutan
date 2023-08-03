@@ -8,11 +8,11 @@ Class {
 WuHeader >> possiblePages [
 
 	^ {
-		  WuTrainingSession.
-		  WuExerciseAdmin.
-		  WuTrainingStatistics.
-		  WuSpacedAlgorithmConfiguration.
-		  WuContact }
+		  WuTrainingSessionPage.
+		  WuExercisePage.
+		  WuTrainingStatisticsPage.
+		  WuConfigurationPage.
+		  WuContactPage }
 ]
 
 { #category : #rendering }

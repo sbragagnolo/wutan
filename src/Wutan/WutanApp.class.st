@@ -111,7 +111,7 @@ WutanApp >> initialize [
 	super initialize.
 	self session rootComponent: self.
 	componentInstances := Dictionary new.
-	self displayInstanceOf: MDLDemoPage pagesToDisplay first
+	self displayInstanceOf: self header possiblePages first
 ]
 
 { #category : #rendering }

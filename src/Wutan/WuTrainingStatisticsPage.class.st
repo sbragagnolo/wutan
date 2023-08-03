@@ -1,11 +1,11 @@
 Class {
-	#name : #WuTrainingStatistics,
+	#name : #WuTrainingStatisticsPage,
 	#superclass : #WuPage,
 	#category : #Wutan
 }
 
 { #category : #accessing }
-WuTrainingStatistics class >> pageName [
+WuTrainingStatisticsPage class >> pageName [
 
 	^ 'Statistics'
 ]
