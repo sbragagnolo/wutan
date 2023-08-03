@@ -19,5 +19,7 @@ WuExercisePage >> defaultPage [
 { #category : #initialization }
 WuExercisePage >> menuComponents [
 
-	^ { (#Contact -> WuContactPage) } asDictionary 
+	^ {
+		  (#Contact -> WuTrainingSessionPage).
+		  (#Contact2 -> WuTrainingSessionPage) } asOrderedDictionary 
 ]

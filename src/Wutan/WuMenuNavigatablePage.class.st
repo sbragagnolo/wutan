@@ -66,12 +66,7 @@ WuMenuNavigatablePage >> renderContentOn: html [
 									html mdlMenuItem: [
 											html anchor
 												callback: [ self displayInstanceOf: class ];
-												with: entryName ] ].
-
-							html mdlMenuItem
-								disabled;
-								with: 'Disabled Action'.
-							html mdlMenuItem: 'Yet Another Action' ].
+												with: entryName ] ] ].
 					html mdlGrid
 						noSpacing;
 						with: [
