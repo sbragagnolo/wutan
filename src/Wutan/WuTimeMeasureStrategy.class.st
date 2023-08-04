@@ -9,3 +9,9 @@ WuTimeMeasureStrategy >> estimateDuration: anInteger [
 
 	^ anInteger asSeconds
 ]
+
+{ #category : #'as yet unclassified' }
+WuTimeMeasureStrategy >> play: aNumber [
+
+	^ (self estimateDuration: aNumber) wait
+]

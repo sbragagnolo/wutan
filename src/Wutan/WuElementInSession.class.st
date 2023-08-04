@@ -23,5 +23,5 @@ WuElementInSession >> elementInMenu: anElement [
 { #category : #initialization }
 WuElementInSession >> perform [
 
-	elementInMenu duration wait
+	elementInMenu play
 ]

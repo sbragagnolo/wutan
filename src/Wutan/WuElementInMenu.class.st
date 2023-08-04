@@ -45,3 +45,9 @@ WuElementInMenu >> newSessionElement [
 		  elementInMenu: self;
 		  yourself
 ]
+
+{ #category : #accessing }
+WuElementInMenu >> play [
+
+	^ element measuringStrategy play: amount
+]
