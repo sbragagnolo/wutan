@@ -1,7 +1,7 @@
 Class {
 	#name : #WuExercisePage,
 	#superclass : #WuMenuNavigatablePage,
-	#category : #Wutan
+	#category : #'Wutan-Components'
 }
 
 { #category : #accessing }
@@ -21,5 +21,5 @@ WuExercisePage >> menuComponents [
 
 	^ {
 		  (#Contact -> WuTrainingSessionPage).
-		  (#Contact2 -> WuTrainingSessionPage) } asOrderedDictionary 
+		  (#Editor -> WuExerciseEditor) } asOrderedDictionary 
 ]

@@ -1,7 +1,7 @@
 Class {
 	#name : #WuHeader,
 	#superclass : #WuComponent,
-	#category : #Wutan
+	#category : #'Wutan-Core'
 }
 
 { #category : #rendering }

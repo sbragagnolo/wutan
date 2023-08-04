@@ -5,7 +5,7 @@ Class {
 		'componentToDisplay',
 		'componentInstances'
 	],
-	#category : #Wutan
+	#category : #'Wutan-Components'
 }
 
 { #category : #rendering }

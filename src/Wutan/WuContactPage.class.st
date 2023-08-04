@@ -1,7 +1,7 @@
 Class {
 	#name : #WuContactPage,
 	#superclass : #WuPage,
-	#category : #Wutan
+	#category : #'Wutan-Components'
 }
 
 { #category : #accessing }

@@ -1,7 +1,7 @@
 Class {
 	#name : #WuFooter,
 	#superclass : #WuComponent,
-	#category : #Wutan
+	#category : #'Wutan-Core'
 }
 
 { #category : #accessing }

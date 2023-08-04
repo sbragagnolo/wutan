@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'rootComponent'
 	],
-	#category : #Wutan
+	#category : #'Wutan-Core'
 }
 
 { #category : #accessing }

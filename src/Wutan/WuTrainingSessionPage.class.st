@@ -1,7 +1,7 @@
 Class {
 	#name : #WuTrainingSessionPage,
 	#superclass : #WuPage,
-	#category : #Wutan
+	#category : #'Wutan-Components'
 }
 
 { #category : #accessing }

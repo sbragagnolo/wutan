@@ -7,7 +7,7 @@ Class {
 		'componentToDisplay',
 		'componentInstances'
 	],
-	#category : #Wutan
+	#category : #'Wutan-Core'
 }
 
 { #category : #initialization }
